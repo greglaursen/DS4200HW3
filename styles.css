@@ -1,17 +1,17 @@
 /* General Styles */
 body {
     font-family: 'Poppins', sans-serif; /* Use Google Fonts for a clean look */
-    background-color: #fffbe6; /* Soft light yellow background */
+    background-color: #f9eaa0; /* Soft light yellow background */
     margin: 0;
     padding: 0;
-    color: #333; /* Dark gray text color */
+    color: #2f2b28; /* Dark gray text color */
     text-align: center; /* Center align text */
 }
 
 /* Navigation Bar */
 nav {
-    background-color: #333; /* Dark background for navigation */
-    color: white;
+    background-color: #2f2b28; /* Dark background for navigation */
+    color: #f7f6f0;
     padding: 15px 0;
     position: fixed; /* Fixed at the top of the page */
     width: 100%;
@@ -22,7 +22,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #f7f6f0;
     text-decoration: none;
     margin: 0 20px;
     font-size: 18px;
@@ -30,7 +30,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #FFD700; /* Golden color on hover */
+    color: #ddb566; /* Golden color on hover */
     text-decoration: underline;
 }
 
@@ -39,7 +39,7 @@ nav a:hover {
     max-width: 900px;
     margin: 100px auto 50px; /* Add space below the fixed navbar */
     padding: 20px;
-    background-color: #fff;
+    background-color: #f7f6f0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card effect */
 }
@@ -47,7 +47,7 @@ nav a:hover {
 /* Header Styles */
 h1 {
     font-size: 48px; /* Large title font */
-    color: #333;
+    color: #2f2b28;
     margin-bottom: 20px;
 }
 
@@ -63,19 +63,19 @@ img {
     width: 200px;
     height: auto;
     margin-top: 20px;
-    border: 4px solid #333; /* Dark border for image */
+    border: 4px solid #2f2b28; /* Dark border for image */
 }
 
 /* Contact Section */
 footer {
     margin-top: 50px;
     padding: 20px;
-    background-color: #333;
-    color: white;
+    background-color: #2f2b28;
+    color: #f7f6f0;
 }
 
 footer a {
-    color: #FFD700; /* Golden links in the footer */
+    color: #ddb566; /* Golden links in the footer */
     text-decoration: none;
 }
 
