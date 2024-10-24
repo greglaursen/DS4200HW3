@@ -1,5 +1,77 @@
+/* General Page Styles */
 body {
+    font-family: Arial, sans-serif;
+    background-color: #fffbe6; /* Light yellow background */
     margin: 0;
-    background: pink;
+    padding: 0;
+    color: #333; /* Dark gray text color */
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333; /* Dark gray bar */
+    color: white;
+    padding: 10px 0;
     text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Container for the Main Content */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white; /* White background for content box */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header (Title) Styles */
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Paragraph Styles */
+p {
+    line-height: 1.6;
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Image Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+/* Footer (Contact Section) */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
