@@ -1,77 +1,100 @@
-/* General Page Styles */
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fffbe6; /* Light yellow background */
+    font-family: 'Poppins', sans-serif; /* Use Google Fonts for a clean look */
+    background-color: #fffbe6; /* Soft light yellow background */
     margin: 0;
     padding: 0;
     color: #333; /* Dark gray text color */
+    text-align: center; /* Center align text */
 }
 
-/* Navigation Bar Styles */
+/* Navigation Bar */
 nav {
-    background-color: #333; /* Dark gray bar */
+    background-color: #333; /* Dark background for navigation */
     color: white;
-    padding: 10px 0;
-    text-align: center;
+    padding: 15px 0;
+    position: fixed; /* Fixed at the top of the page */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 20px;
     font-size: 18px;
+    text-transform: uppercase; /* Uppercase navigation links */
 }
 
 nav a:hover {
+    color: #FFD700; /* Golden color on hover */
     text-decoration: underline;
 }
 
-/* Container for the Main Content */
+/* Main Content Wrapper */
 .container {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 900px;
+    margin: 100px auto 50px; /* Add space below the fixed navbar */
     padding: 20px;
-    background-color: white; /* White background for content box */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card effect */
 }
 
-/* Header (Title) Styles */
+/* Header Styles */
 h1 {
-    font-size: 36px;
+    font-size: 48px; /* Large title font */
     color: #333;
-    text-align: center;
-    margin-top: 0;
+    margin-bottom: 20px;
 }
 
-/* Paragraph Styles */
 p {
+    font-size: 20px; /* Larger, readable font for paragraphs */
     line-height: 1.6;
-    font-size: 18px;
-    margin: 20px 0;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
-/* Image Styles */
+/* Image Styling */
 img {
-    display: block;
-    margin: 0 auto;
     border-radius: 50%;
-    border: 3px solid #333;
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    border: 4px solid #333; /* Dark border for image */
 }
 
-/* Footer (Contact Section) */
+/* Contact Section */
 footer {
-    text-align: center;
     margin-top: 50px;
-    font-size: 16px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
 }
 
 footer a {
-    color: #333;
+    color: #FFD700; /* Golden links in the footer */
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Reduce the container width on smaller screens */
+        margin: 120px auto 50px; /* Adjust top margin to account for navbar */
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
