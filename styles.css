@@ -29,7 +29,7 @@ nav {
     color: #f7f6f0;
     padding: 15px 0;
     position: fixed; /* Fixed at the top of the page */
-    width: 90%;
+    width: 100%;
     top: 0;
     left: 0;
     z-index: 1000;
