@@ -116,3 +116,60 @@ footer a:hover {
         font-size: 18px;
     }
 }
+
+
+/* Main Layout for the Language Sections */
+.languages-container {
+    display: flex;
+    gap: 20px; /* Space between sections */
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Allow horizontal scroll if necessary */
+}
+
+/* Each language section styling */
+.language {
+    flex: 1; /* Make both sections take up equal width */
+    padding: 20px;
+    background-color: #f7f7f7; /* Light gray background for sections */
+    border-radius: 8px;
+    min-width: 300px; /* Minimum width to help keep sections readable */
+}
+
+/* Section headings */
+.language h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Paragraph under each language */
+.language p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Resource list styling */
+.language ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin-top: 15px;
+}
+
+.language li {
+    margin-bottom: 8px;
+}
+
+.language a {
+    color: #007acc; /* Link color */
+    text-decoration: none;
+}
+
+.language a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
